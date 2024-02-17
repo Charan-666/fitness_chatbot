@@ -1,0 +1,141 @@
+version: "2.0"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: way_1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: morn_healthy_breakfast
+  - action: utter_morn_healthy_breakfast
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: loose_weight
+  - action: utter_loose_weight
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: abs_workout
+  - action: utter_abs_workout
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: ars_shoulder_workout
+  - action: utter_ars_shoulder_workout
+
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: lower_body_workout
+  - action: utter_lower_body_workout
+
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: back_posture_workout
+  - action: utter_back_posture_workout
+
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: thigh_workout
+  - action: utter_thigh_workout
+
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: low_carbs_meal
+  - action: utter_low_carbs_meal
+
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: protien_veg_diet
+  - action: utter_protien_veg_diet
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: cal_bmi
+  - action: utter_cal_bmi
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: interediate_fasting
+  - action: utter_interediate_fasting
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: motive_workout
+  - action: utter_motive_workout
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: matabolism_rate
+  - action: utter_matabolism_rate
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: drink_water
+  - action: utter_drink_water
+
+- story: way_2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: pre_post_workout
+  - action: utter_pre_post_workout

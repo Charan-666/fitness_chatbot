@@ -1,0 +1,107 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - morn_healthy_breakfast
+  - loose_weight
+  - abs_workout
+  - ars_shoulder_workout
+  - lower_body_workout
+  - back_posture_workout
+  - thigh_workout
+  - low_carbs_meal
+  - protien_veg_diet
+  - cal_bmi
+  - interediate_fasting
+  - motive_workout
+  - matabolism_rate
+  - drink_water
+  - pre_post_workout
+  
+
+responses:
+  utter_greet:
+  - text: "Hey! How may i help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am your fitness trainer"
+
+  utter_morn_healthy_breakfast:
+  - text: "Greek yogurt with fresh fruit and nuts is a protein-rich option providing essential nutrients for a balanced morning. Oatmeal topped with berries and honey offers complex carbohydrates and antioxidants, ideal for sustained energy throughout the day."
+
+  utter_loose_weight:
+  - text: "The recommended daily calorie intake for weight loss varies depending on factors like age, gender, weight, height, and activity level. As a general guideline, a deficit of 500 to 1000 calories per day from your maintenance level is often recommended for safe and sustainable weight loss. It's best to consult with a healthcare professional or registered dietitian for personalized guidance."
+
+  utter_abs_workout:
+  - text: "Certainly! Effective workouts for sculpting abs include planks, crunches, bicycle crunches, leg raises, Russian twists, and mountain climbers. Incorporating a variety of these exercises into your routine can help target different areas of the core for optimal results."
+
+  utter_ars_shoulder_workout:
+  - text: "To tone your arms and shoulders, focus on exercises like bicep curls, tricep dips, shoulder presses, lateral raises, and push-ups. Incorporating both compound and isolation exercises will help strengthen and define these muscle groups effectively."
+
+  utter_lower_body_workout:
+  - text: "To effectively build leg and glute muscles, include exercises such as squats, lunges, deadlifts, hip thrusts, and leg presses in your workout routine. Aim for progressive overload by gradually increasing weights or resistance to challenge your muscles and promote growth. Additionally, ensure adequate protein intake and recovery to support muscle repair and development."
+
+
+  utter_back_posture_workout:
+  - text: "Effective workouts for enhancing back muscles and correcting posture include exercises such as deadlifts, rows (including bent-over rows and seated rows), lat pulldowns, face pulls, and reverse flyes. These exercises target the muscles of the upper back, lower back, and shoulders, helping to improve strength and posture when performed with proper form."
+
+
+  utter_thigh_workout:
+  - text: "The best workouts for toning and slimming down your thighs include exercises like squats, lunges, step-ups, leg presses, and inner and outer thigh exercises such as side lunges and leg abductions. Incorporating both strength training and cardiovascular exercises into your routine can help tone and reduce fat in the thigh area."
+
+
+  utter_low_carbs_meal:
+  - text: "Some low-carb dinner options include grilled chicken or fish with steamed vegetables, zucchini noodles with marinara sauce and lean ground turkey, cauliflower rice stir-fry with tofu and mixed vegetables, stuffed bell peppers with quinoa, black beans, and salsa, and grilled shrimp skewers with a side salad. These options are nutrient-dense and can help support a low-carb eating plan."
+
+
+  utter_protien_veg_diet:
+  - text: "You can increase your protein intake as a vegetarian by incorporating foods such as tofu, tempeh, seitan, lentils, chickpeas, black beans, quinoa, Greek yogurt, eggs, nuts, seeds, and protein-rich vegetables like spinach and broccoli into your meals. These plant-based protein sources can help you meet your protein needs while following a vegetarian diet."
+
+
+  utter_cal_bmi:
+  - text: "The process for determining your BMI (Body Mass Index) involves dividing your weight in kilograms by your height in meters squared. The formula is BMI = weight (kg) / (height (m) * height (m)). Alternatively, you can use online calculators or charts to input your weight and height to find your BMI."
+
+
+  utter_interediate_fasting:
+  - text: "Yes, intermittent fasting can help with weight loss by restricting the time window for eating, which may lead to a reduction in overall calorie intake. Additionally, intermittent fasting has been shown to have benefits for metabolism and fat burning, making it a popular approach for weight management."
+
+
+  utter_motive_workout:
+  - text: "To maintain motivation to exercise consistently, try setting specific and achievable goals, finding activities you enjoy, varying your routine to prevent boredom, exercising with a friend or joining a fitness class for accountability, tracking your progress, rewarding yourself for reaching milestones, focusing on the benefits of exercise for your physical and mental well-being, and reminding yourself of your reasons for wanting to stay active."
+  
+
+  utter_matabolism_rate:
+  - text: "Some natural methods for boosting metabolism include staying hydrated by drinking plenty of water, eating protein-rich foods to support muscle growth and repair, consuming spicy foods like chili peppers that contain capsaicin, engaging in regular strength training exercises to increase muscle mass, getting enough sleep to support overall metabolic function, and managing stress levels through relaxation techniques such as meditation or yoga."
+
+
+
+  utter_drink_water:
+  - text: "The recommended daily water intake varies depending on factors such as age, gender, weight, climate, and activity level. As a general guideline, aiming for about 8 glasses of water per day, or approximately 2 liters, is often recommended for adequate hydration. However, individual needs may vary, so it's essential to listen to your body and drink water when you feel thirsty."
+
+
+  utter_pre_post_workout:
+  - text: "Pre and post-workout nutrition is important for exercise because it provides the body with the fuel and nutrients needed to optimize performance, support muscle repair and growth, and enhance recovery. Consuming the right balance of carbohydrates and protein before a workout can provide energy and promote muscle glycogen stores, while post-workout nutrition replenishes glycogen stores, aids in muscle repair, and reduces muscle protein breakdown. This helps maximize the benefits of exercise and improve overall athletic performance."
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

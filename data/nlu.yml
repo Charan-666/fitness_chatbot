@@ -1,0 +1,324 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+    - who are you?
+
+- intent: morn_healthy_breakfast
+  examples: |
+    - What are some nutritious breakfast ideas?
+    - Can you suggest some healthy morning meal choices?
+    - I'm looking for some healthy breakfast suggestions, any ideas?
+    - What are some good breakfast options for starting the day right?
+    - Do you have any recommendations for healthy breakfast foods?
+    - What should I eat for a healthy breakfast?
+    - I need some healthy breakfast inspiration. Any suggestions?
+    - Can you give me some examples of nutritious breakfasts?
+    - What are some healthy breakfast recipes I can try?
+    - How can I make my breakfast healthier?
+    - what breakfast can i make to be healthier?
+
+- intent: loose_weight
+  examples: |
+    - What's the recommended daily calorie intake for weight loss?
+    - How many calories do I need to eat each day to lose weight?
+    - What's the optimal calorie limit per day for losing weight?
+    - Can you tell me the ideal calorie consumption for weight loss?
+    - How many calories should I aim for daily if I want to shed pounds?
+    - What's the calorie target I should set to achieve weight loss goals?
+    - What's the right daily calorie count to help me lose weight effectively?
+    - How many calories should I restrict myself to if I'm trying to lose weight?
+    - What's the recommended calorie deficit for effective weight loss?
+    - Can you advise me on the appropriate calorie intake to facilitate weight loss?
+
+- intent: abs_workout
+  examples: |
+    - Can you suggest some good workouts for getting abs?
+    - What are the best exercises for firming up my abdominal muscles?
+    - I want to work on my core. What exercises should I do for a toned stomach?
+    - How can I strengthen my abs effectively?
+    - What are some recommended ab exercises for getting a flat stomach?
+    - Which workouts target the abs most effectively?
+    - I'm aiming for a six-pack. What exercises should I focus on for my abs?
+    - Can you recommend some ab workouts that yield results?
+    - What exercises can I do to sculpt my midsection?
+    - I want to improve my core strength. What exercises do you suggest for my abs?
+    - I want to get 6packs
+
+
+- intent: ars_shoulder_workout
+  examples: |   
+    - What exercises should I do to tone my arms and shoulders?
+    - I want to work on my upper body. Any suggestions for arm and shoulder exercises?
+    - How can I strengthen my arms and shoulders?
+    - Can you suggest some workouts specifically for my arms and shoulders?
+    - What are the best exercises for sculpting my arms and shoulders?
+    - Which workouts are most effective for toning my upper arms and shoulders?
+    - I'm looking to build muscle in my arms and shoulders. Any recommended exercises?
+    - What exercises do you recommend to target the deltoids and biceps?
+    - I need some arm and shoulder workouts. Can you provide some recommendations?
+    - Which exercises should I focus on for defining my arms and shoulders?
+    - How can I develop strong and toned arms and shoulders?
+    - Are there any particular exercises I should do for my arms and shoulders?
+    - I want to improve my arm and shoulder strength. What exercises do you suggest?
+    - What workouts should I incorporate to enhance my arm and shoulder muscles?
+    - Can you provide a list of exercises to specifically target my arms and shoulders?
+
+
+- intent: lower_body_workout
+  examples: | 
+    - Can you recommend exercises to tone my legs and glutes?
+    - What are the best workouts for strengthening my lower body, especially my legs and glutes?
+    - How can I focus on building my leg and glute muscles effectively?
+    - What exercises target the legs and glutes the most?
+    - I'm aiming for stronger legs and a firmer butt. What exercises should I prioritize?
+    - Which workouts are most beneficial for sculpting my thighs and buttocks?
+    - Can you suggest some lower body exercises that will help tone my legs and lift my glutes?
+    - What leg and glute exercises should I incorporate into my routine for better results?
+    - I want to improve my lower body strength. What exercises do you recommend for my legs and glutes?
+    - Are there any specific exercises I should focus on to shape my legs and enhance my glutes?
+    - How can I develop lean and toned legs along with firm glutes?
+    - What exercises can I do to target my quadriceps, hamstrings, and gluteus muscles?
+    - I'm looking for effective leg and glute workouts. Any recommendations?
+    - What lower body exercises should I include to achieve a balanced physique?
+    - Can you provide a list of exercises that specifically target my legs and glutes?
+    - today is my leg day,what should i do?
+    - suggest some exercise for my butts?
+
+- intent: back_posture_workout
+  examples: | 
+    - Can you recommend exercises to strengthen my back and help with posture?
+    - I'm looking to improve my back strength and posture. What exercises should I focus on?
+    - What workouts are effective for enhancing back muscles and correcting posture?
+    - How can I strengthen my back muscles and achieve better posture?
+    - Which exercises should I incorporate into my routine to build a stronger back and correct my posture?
+    - What are the top exercises for strengthening the back and promoting good posture?
+    - I want to work on my back strength and posture. Any recommendations for exercises?
+    - Can you suggest some exercises that target the back and contribute to better posture?
+    - What exercises should I do to develop a strong back and maintain proper posture?
+    - Are there any specific workouts I should focus on to improve my back strength and posture?
+
+
+- intent: thigh_workout
+  examples: | 
+    - Can you recommend exercises to help me reduce the size of my thighs? 
+    - What are the best workouts for toning and slimming down my thighs?
+    - How can I target my thigh muscles to make them slimmer?
+    - Which exercises are most effective for slimming thighs?
+    - I want to work on slimming my thighs. What exercises should I focus on?
+    - What exercises can I incorporate into my routine to achieve thinner thighs?
+    - Are there specific thigh exercises that help with slimming?
+    - Can you suggest some exercises to help me get leaner thighs?
+    - What workouts should I do to reduce fat and tone my thighs?
+    - I'm aiming to decrease the size of my thighs. What exercises do you recommend?
+    - How can I sculpt my thighs to make them appear slimmer?
+    - Are there any targeted exercises I should do to slim down my thighs?
+    - What exercises should I prioritize to slim my thighs down?
+    - I want to slim down my thighs. What exercises will help me achieve that goal?
+    - Can you provide a list of exercises specifically designed to slim down thighs?
+
+
+- intent: low_carbs_meal
+  examples: | 
+    - Do you have any suggestions for dinner recipes that are low in carbohydrates? 
+    - I'm looking for dinner ideas with minimal carbs. Can you recommend some recipes? 
+    - What are some dinner options that are low in carbs?
+    - Can you provide me with some recipes for dinners that are high in protein and low in carbs?
+    - I need some dinner recipes that are keto-friendly. Any suggestions?
+    - What are some delicious dinner recipes that won't spike my blood sugar levels?
+    - I'm trying to cut down on carbs. What dinner recipes do you recommend?
+    - Can you share some dinner recipes that are both low-carb and easy to prepare?
+    - What are some dinner options that are suitable for a low-carb diet?
+    - I'm watching my carb intake. What are some dinner recipes that align with that?
+
+
+- intent: protien_veg_diet
+  examples: | 
+    - What are some ways I can get more protein in my diet as a vegetarian?
+    - Can you suggest vegetarian-friendly sources of protein to help me meet my intake goals?
+    - How can I ensure I'm getting enough protein on a vegetarian diet?
+    - What are some plant-based protein sources I can incorporate into my meals?
+    - I'm vegetarian and looking to up my protein intake. Any tips?
+    - What vegetarian foods should I eat to increase my protein consumption?
+    - How can I optimize my vegetarian diet for higher protein content?
+    - Can you recommend protein-rich vegetarian meals or snacks?
+    - I want to boost my protein intake without meat. What should I do?
+    - What are some effective strategies for increasing protein on a vegetarian eating plan?
+
+
+- intent: cal_bmi
+  examples: |
+    - What's the process for determining my BMI (Body Mass Index)?
+    - Can you explain how I can figure out my BMI (Body Mass Index)?
+    - What steps should I take to calculate my BMI (Body Mass Index)?
+    - How do I go about finding my BMI (Body Mass Index)?
+    - Could you teach me how to compute my BMI (Body Mass Index)?
+    - What's the formula used to determine BMI (Body Mass Index)?
+    - I'm interested in knowing how to measure my BMI (Body Mass Index). Can you guide me?
+    - Can you walk me through the process of finding my BMI (Body Mass Index)?
+    - What's the method for calculating BMI (Body Mass Index)?
+    - Could you provide instructions on determining my BMI (Body Mass Index)?
+
+- intent: interediate_fasting
+  examples: |
+    - Does intermittent fasting help with losing weight?
+    - Can intermittent fasting aid in weight loss?
+    - Is intermittent fasting a good strategy for shedding pounds?
+    - Does intermittent fasting promote effective weight loss?
+    - I'm curious, does intermittent fasting lead to weight loss?
+    - Can you tell me if intermittent fasting is effective for reducing weight?
+    - Is intermittent fasting beneficial for those aiming to lose weight?
+    - Does intermittent fasting contribute to successful weight loss?
+    - I'm wondering, does intermittent fasting work for weight loss?
+    - Is intermittent fasting a recommended approach for achieving weight loss goals?
+
+
+- intent: motive_workout
+  examples: |
+    - What are some tips for maintaining motivation to exercise consistently? 
+    - How can I keep myself inspired to work out on a regular basis?
+    - What strategies can I use to stay motivated and committed to my exercise routine?
+    - Do you have any advice on staying enthusiastic about exercising regularly?
+    - I struggle with staying motivated to work out. Can you offer any guidance?
+    - What are some ways I can stay dedicated to my fitness regimen?
+    - How do I prevent myself from losing motivation to exercise?
+    - Can you provide tips for staying driven to exercise consistently?
+    - What techniques can I employ to stay motivated to work out regularly?
+    - I find it hard to stay motivated to exercise. What can I do to stay on track?
+
+
+- intent: matabolism_rate
+  examples: |
+    - What are some natural methods for boosting metabolism?
+    - How can I enhance my metabolism without using supplements?
+    - Can you suggest ways to naturally increase my metabolic rate?
+    - What lifestyle changes can I make to improve my metabolism naturally?
+    - Are there any dietary adjustments I can make to boost my metabolism?
+    - I want to speed up my metabolism naturally. Any recommendations?
+    - What habits can I adopt to naturally rev up my metabolism?
+    - Can you provide tips for naturally improving metabolism?
+    - How can I support a healthy metabolism without resorting to artificial means?
+    - What are some holistic approaches to enhancing metabolism naturally?
+
+- intent: drink_water
+  examples: |
+    - What is the recommended daily water intake?
+    - How much water should I aim to drink each day?
+    - What is the appropriate amount of water I should consume daily?
+    - Can you advise me on how many glasses of water I should drink per day?
+    - I'm unsure about how much water I should be drinking daily. Can you help?
+    - What's the ideal daily water quota I should meet?
+    - How many liters of water should I aim to drink every day?
+    - Is there a specific amount of water I should aim to drink on a daily basis?
+    - What's the guideline for daily water consumption?
+    - Can you tell me how much water I need to drink each day for optimal health?
+    - How can I determine the appropriate daily water intake for myself?
+    - What's the general rule for daily water consumption?
+    - I want to make sure I'm drinking enough water every day. What's the recommendation?
+    - Can you provide guidance on how much water I should drink daily?
+    - What's the standard advice for daily water intake?
+
+
+- intent: pre_post_workout
+  examples: |
+    - Why is pre and post-workout nutrition important for exercise?
+    - Can you explain the significance of pre and post-workout nutrition?
+    - What role does pre and post-workout nutrition play in fitness?
+    - Why should I focus on pre and post-workout nutrition?
+    - What are the benefits of paying attention to pre and post-workout nutrition?
+    - How does pre and post-workout nutrition impact exercise performance?
+    - What's the importance of proper nutrition before and after working out?
+    - Why is it essential to consider pre and post-workout nutrition for fitness goals?
+    - Can you elaborate on why pre and post-workout nutrition are crucial aspects of training?
+    - What are the reasons behind emphasizing pre and post-workout nutrition in a fitness regimen?
+
+
+

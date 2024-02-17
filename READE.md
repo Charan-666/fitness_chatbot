@@ -38,3 +38,22 @@ The fitness and nutrition chatbot can be tested using various user scenarios to 
 
 ✨Deployment
 this bot is deployed in the standalome system where i have created a bsic html file and deployed thr chatbot on the web page,where you can see that in the right bottom of your screen.
+
+ # ask the bot on the following questions only(as it is trained only for this for time being)
+ # but the questions can be asked in any ways but the context ust remain same (if the specific keywords are missing then the bot might fail to reply)
+ 
+ 1.ask about how to loose weight
+ 2.ask about abs workout
+ 3.ask about arms and shoulder workout
+ 4.ask about lower body workout
+ 5.ask about body and posture
+ 6.ask about thigh workout
+ 7.ask about low carbs meal
+ 8.ask about healthy breakfast
+ 9.ask about protien veg diet
+ 10.ask about bmi calculation
+ 11.ask about intermediate fasting
+ 12.ask about motivation
+ 13.ask about metabolism
+ 14.ask about how much to drink water
+ 15.ask about pre and post nutrition
